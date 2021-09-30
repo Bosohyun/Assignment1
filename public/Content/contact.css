@@ -1,0 +1,54 @@
+/*Custom css goes here */
+/* app.css, BOHYUN KIM, 301131832, 21.09.28 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    position: relative;
+    width:100%;
+}
+
+#header .navbar {
+    padding: 50px 20px;
+}
+
+#header .navbar-brand {
+
+   
+    font-weight:bold;
+    font-size: 3em;
+    text-transform:uppercase;
+    color:rgb(0, 38, 109);
+}
+
+#header .nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+#header .nav-link{
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.logo{
+    opacity: 0.5;
+}
+
+body{
+    position:relative;
+    background:url(/Assets/images/background.jpg);
+    background-size:cover;
+
+}
+
+.contactform{
+  
+    max-width: 800px;
+    margin: 30px;
+    padding: 30px;
+}
